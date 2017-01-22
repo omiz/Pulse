@@ -294,7 +294,7 @@ extension PulseSetup {
       self.radius = 60
       self.count = 1
       self.startInterval = 1
-      self.color = UIColor.init(displayP3Red: 0, green: 0.455, blue: 0.756, alpha: alphaFromValue)
+      self.color = UIColor(red: 0, green: 0.455, blue: 0.756, alpha: alphaFromValue)
    }
 
    func setupAnimationGroup() {
