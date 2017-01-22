@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.author = { "Omar Allaham" => "o.allaham@icloud.com" }
   s.source = { :git => 'https://github.com/omiz/Pulse.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, "8.0"
 
   s.requires_arc = 'true'
-  s.source_files = 'Pulse/**/*.swift'
+  s.source_files = 'Pulse/*.swift'
 
 end
