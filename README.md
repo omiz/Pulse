@@ -1,6 +1,9 @@
 # Pulse
 Animated Pulse layer and view
 
+## Expermintal
+this is an expermintal repo and will be updated soon. you feedback is welcome.
+
 ## Requirements
 
 - iOS 8.0+
