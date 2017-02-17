@@ -4,6 +4,9 @@ Animated Pulse layer and view
 ## Expermintal
 this is an expermintal repo and will be updated soon. you feedback is welcome.
 
+## Screenshot
+![Alt text](/screenshot/image.gif?raw=true "demo")
+
 ## Requirements
 
 - iOS 8.0+
@@ -51,7 +54,10 @@ Copy the .swift files into your project or clone and include Pulse repo into you
     pulseLayer.position = view.center
     pulseLayer.count = 10
     view.layer.addSublayer(pulseLayer)
-    pulseLayer.start()
+    pulseLayer.animate()
+    
+    //when needed
+    //pulseLayer.stop()
 ```
 
 ### To use the view:
@@ -66,7 +72,10 @@ Enjoy the Inspectable parameters
     pulseView.count = 10
     pulseView.color = UIColor.blue
     view.addSubview(pulseView)
-    pulseView.isActive = true
+    pulseView.isAnimating = true
+    
+    //when needed
+    //pulseView.isAnimating = false
 ```
 
 ## Todo
