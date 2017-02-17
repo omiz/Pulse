@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E007D6761E578BF20075EAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007D6751E578BF20075EAE8 /* AppDelegate.swift */; };
+		E007D6781E578BF20075EAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007D6771E578BF20075EAE8 /* ViewController.swift */; };
+		E007D67B1E578BF20075EAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E007D6791E578BF20075EAE8 /* Main.storyboard */; };
+		E007D67D1E578BF20075EAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E007D67C1E578BF20075EAE8 /* Assets.xcassets */; };
+		E007D6801E578BF20075EAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E007D67E1E578BF20075EAE8 /* LaunchScreen.storyboard */; };
+		E007D6871E5792700075EAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E007D6791E578BF20075EAE8 /* Main.storyboard */; };
+		E007D6881E57934F0075EAE8 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03668831E3108BB00C2BE69 /* PulseView.swift */; };
+		E007D6891E57934F0075EAE8 /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03668851E3108ED00C2BE69 /* PulseLayer.swift */; };
 		E03668841E3108BB00C2BE69 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03668831E3108BB00C2BE69 /* PulseView.swift */; };
 		E03668861E3108ED00C2BE69 /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03668851E3108ED00C2BE69 /* PulseLayer.swift */; };
 		E03DD5B71E2DF08800ECB2D3 /* Pulse.h in Headers */ = {isa = PBXBuildFile; fileRef = E03DD5B51E2DF08800ECB2D3 /* Pulse.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E007D6731E578BF20075EAE8 /* PulseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E007D6751E578BF20075EAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E007D6771E578BF20075EAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E007D67A1E578BF20075EAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E007D67C1E578BF20075EAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E007D67F1E578BF20075EAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E007D6811E578BF20075EAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E03668831E3108BB00C2BE69 /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
 		E03668851E3108ED00C2BE69 /* PulseLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseLayer.swift; sourceTree = "<group>"; };
 		E03DD5B21E2DF08800ECB2D3 /* Pulse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pulse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +42,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E007D6701E578BF20075EAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E03DD5AE1E2DF08800ECB2D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E007D6741E578BF20075EAE8 /* PulseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E007D6751E578BF20075EAE8 /* AppDelegate.swift */,
+				E007D6771E578BF20075EAE8 /* ViewController.swift */,
+				E007D6791E578BF20075EAE8 /* Main.storyboard */,
+				E007D67C1E578BF20075EAE8 /* Assets.xcassets */,
+				E007D67E1E578BF20075EAE8 /* LaunchScreen.storyboard */,
+				E007D6811E578BF20075EAE8 /* Info.plist */,
+			);
+			path = PulseDemo;
+			sourceTree = "<group>";
+		};
 		E03DD5A81E2DF08800ECB2D3 = {
 			isa = PBXGroup;
 			children = (
 				E03DD5B41E2DF08800ECB2D3 /* Pulse */,
+				E007D6741E578BF20075EAE8 /* PulseDemo */,
 				E03DD5B31E2DF08800ECB2D3 /* Products */,
 				E0896D841E34E36D007FE791 /* LICENSE */,
 				E0896D861E34E374007FE791 /* README.md */,
@@ -52,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				E03DD5B21E2DF08800ECB2D3 /* Pulse.framework */,
+				E007D6731E578BF20075EAE8 /* PulseDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +118,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		E007D6721E578BF20075EAE8 /* PulseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E007D6841E578BF20075EAE8 /* Build configuration list for PBXNativeTarget "PulseDemo" */;
+			buildPhases = (
+				E007D66F1E578BF20075EAE8 /* Sources */,
+				E007D6701E578BF20075EAE8 /* Frameworks */,
+				E007D6711E578BF20075EAE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseDemo;
+			productName = PulseDemo;
+			productReference = E007D6731E578BF20075EAE8 /* PulseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E03DD5B11E2DF08800ECB2D3 /* Pulse */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E03DD5BA1E2DF08800ECB2D3 /* Build configuration list for PBXNativeTarget "Pulse" */;
@@ -105,9 +159,14 @@
 		E03DD5A91E2DF08800ECB2D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Bemaxnet;
 				TargetAttributes = {
+					E007D6721E578BF20075EAE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					E03DD5B11E2DF08800ECB2D3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
@@ -121,6 +180,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E03DD5A81E2DF08800ECB2D3;
 			productRefGroup = E03DD5B31E2DF08800ECB2D3 /* Products */;
@@ -128,15 +188,27 @@
 			projectRoot = "";
 			targets = (
 				E03DD5B11E2DF08800ECB2D3 /* Pulse */,
+				E007D6721E578BF20075EAE8 /* PulseDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E007D6711E578BF20075EAE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E007D6801E578BF20075EAE8 /* LaunchScreen.storyboard in Resources */,
+				E007D67D1E578BF20075EAE8 /* Assets.xcassets in Resources */,
+				E007D67B1E578BF20075EAE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E03DD5B01E2DF08800ECB2D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E007D6871E5792700075EAE8 /* Main.storyboard in Resources */,
 				E0896D891E34E37B007FE791 /* Pulse.podspec in Resources */,
 				E0896D851E34E36D007FE791 /* LICENSE in Resources */,
 			);
@@ -145,6 +217,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E007D66F1E578BF20075EAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E007D6781E578BF20075EAE8 /* ViewController.swift in Sources */,
+				E007D6891E57934F0075EAE8 /* PulseLayer.swift in Sources */,
+				E007D6761E578BF20075EAE8 /* AppDelegate.swift in Sources */,
+				E007D6881E57934F0075EAE8 /* PulseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E03DD5AD1E2DF08800ECB2D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,7 +240,50 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		E007D6791E578BF20075EAE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E007D67A1E578BF20075EAE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E007D67E1E578BF20075EAE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E007D67F1E578BF20075EAE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		E007D6821E578BF20075EAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PulseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bemaxnet.PulseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E007D6831E578BF20075EAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PulseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bemaxnet.PulseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		E03DD5B81E2DF08800ECB2D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -301,6 +427,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E007D6841E578BF20075EAE8 /* Build configuration list for PBXNativeTarget "PulseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E007D6821E578BF20075EAE8 /* Debug */,
+				E007D6831E578BF20075EAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E03DD5AC1E2DF08800ECB2D3 /* Build configuration list for PBXProject "Pulse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

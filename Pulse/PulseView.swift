@@ -12,13 +12,9 @@ class PulseView: UIView {
 
    var pulseLayer = PulseLayer()
 
-   open var isAnimating: Bool {
-      return pulseLayer.isAnimating
-   }
-
-   @IBInspectable open var isActive: Bool = true {
+   @IBInspectable open var isAnimating: Bool = true {
       didSet {
-         if isActive {
+         if isAnimating {
             pulseLayer.animate()
          } else {
             pulseLayer.stop()

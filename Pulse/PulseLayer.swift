@@ -339,10 +339,10 @@ extension PulseSetup {
 extension PulseCAAnimationDelegate: CAAnimationDelegate {
 
    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
-      self.effect.removeAllAnimations()
-      
-      self.effect.removeFromSuperlayer()
-      
-      self.removeFromSuperlayer()
+//      self.effect.removeAllAnimations()
+//
+//      self.effect.removeFromSuperlayer()
+//
+//      self.removeFromSuperlayer()
    }
 }
