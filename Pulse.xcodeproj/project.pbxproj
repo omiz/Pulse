@@ -434,6 +434,7 @@
 				E007D6831E578BF20075EAE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E03DD5AC1E2DF08800ECB2D3 /* Build configuration list for PBXProject "Pulse" */ = {
 			isa = XCConfigurationList;
