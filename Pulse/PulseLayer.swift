@@ -303,7 +303,7 @@ extension PulseSetup {
       animationGroup.repeatCount = self.repeatCount
 
       if self.useTimingFunction {
-         let defaultCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
+        let defaultCurve = CAMediaTimingFunction(name: CAMediaTimingFunctionName.default)
          animationGroup.timingFunction = defaultCurve
       }
 
